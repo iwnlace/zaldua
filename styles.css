@@ -1,0 +1,234 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+
+
+    body {
+        margin: 0; 
+        padding: 0;
+        font-family: montserrat;
+    }
+    nav {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display:run-in;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 50px;
+        padding: 20px 100px;
+        color: #fff;
+        
+    }
+   
+    
+    .logo {
+        font-size: 35px;
+        color: hsl(0, 0%, 6%);
+        padding: 0 20px;
+    }
+    .menu ul li {
+        display: inline-block;
+        margin: 0 20px;
+    }
+    .menu ul li a {
+        text-decoration: none;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-family: Arial;
+        color: #080808;
+        padding: 15px 15px;
+    }
+    .menu ul li a:hover{
+        background: transparent;
+    }
+    
+    .socials a {
+        text-decoration:none;
+        background: rgb(201, 97, 0);
+        color: #080808;
+        padding: 10px 35px;
+    }
+    .full-page {
+        height: 100vh;
+        background-color:  #8EACCD;
+        background-position: center center;
+        background-size: cover;
+        
+        
+    }
+    .banner-text {
+        color: #fff;
+        position: absolute;
+        top: 50%;
+        left: 26%;
+        transform: translate(-50%, -50%);
+        text-align: left;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+        margin: 0;
+    }
+    .banner-text p {
+        margin: 15px 0 40px;
+    }
+    .banner-text button {
+        background: rgb(235, 224, 163);
+        border: none;
+        outline: none;
+        color: #080808;
+        cursor: pointer;
+        padding: 10px 30px;
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+        display: inline-block;
+    }
+    @media (max-width: 1000px) {
+        nav {
+            flex-direction: column;
+            align-items: flex;
+        }
+        .menu ul {
+            padding: 0;
+        }
+        .menu ul li {
+            margin: 0 15px 0 0;
+        }
+        .socials {
+            margin-top: 25px;
+        }
+        .banner-text {
+            left: 50%;
+            text-align: center;
+            width: 70%;
+        }
+        .banner-text h1 {
+            font-size: 40px;
+        }
+    }
+    @media (max-width: 600px) {
+        .logo {
+            margin-top: 0;
+            font-size: 17px;
+        }
+        nav {
+            padding: 15px;
+        }
+        .menu ul li a {
+            font-size: 10px;
+            padding: 5px;
+        }
+        .socials {
+            display: none;
+        }
+        .banner-text {
+            left: 50%;
+            text-align: center;
+            width: 80%;
+        }
+        .banner-text h1 {
+            font-size: 18px;
+        }
+        
+        .banner-text p {
+            margin: 15px 0;
+            font-size: 11px;
+        }
+        .banner-text button {
+            font-size: 12px;
+        }
+
+    }
+
+    *{
+        
+        
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+    }
+.form-box
+{
+    
+    width: 400px;
+     left: 400px;
+    margin: 2% auto;
+    background: #D7E5CA;
+    padding: 0px;
+    border-radius: 10px;
+    height: 480px;
+    position: relative;
+}
+.button-box
+{
+    width: 220px;
+    margin: 35px auto;
+    padding: 50px 0;
+    position: auto;
+    text-align: center;
+    
+}
+#btn
+{ 
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    background:  #D2E0FB;
+    border-radius: 10px;
+    transition: .5s;
+}
+.input-group-siginup
+{
+    top: 150px;
+    position: absolute;
+    width: 280px;
+    transition: .5s;
+}
+.input-field
+{
+    width: 100%;
+    padding: 15px 0;
+    margin: 25px 0;
+    border-left: 5;
+    border-right: 5;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    
+}
+.submit-btn
+{
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background:  #D2E0FB;
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+.check-box
+{
+    margin: 30px 10px 34px 0;
+}
+span
+{
+    color: black;
+    font-size: 12px;
+    bottom: 68px;
+    position: auto;
+    text-align: center;
+}
+#register
+{   left: 50px;
+}
+#register input 
+{
+    color: black;
+    font-size: 15;
+}

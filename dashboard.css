@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap);
+
+
+body {
+    margin: 0; 
+    padding: 0;
+    font-family: montserrat;
+}
+nav {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display:run-in;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 50px;
+    padding: 20px 100px;
+    color: #fff;
+    
+} 
+.logo {
+    font-size: 35px;
+    color: hsl(0, 0%, 6%);
+    padding: 0 20px;
+}
+.menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+.menu ul li a {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-family: Arial;
+    color: #080808;
+    padding: 15px 15px;
+}
+.socials a {
+    text-decoration:none;
+    background: rgb(201, 97, 0);
+    color: #080808;
+}
+.full-page {
+    height: 100vh;
+        background-color:  #8EACCD;
+    background-position: center center;
+    background-size: cover; 
+    
+} 
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.sidebar {
+    background-color: #D7E5CA;
+    color: black;
+    width: 200px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: justify;
+    align-items: center;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 5px;
+    margin: 5px;
+    top: 5px;
+    left: 5px;
+}
+
+.sidebar li {
+    padding: 10px;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+footer {
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
